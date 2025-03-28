@@ -1,0 +1,740 @@
+﻿{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/ssl_key.passwd.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/ssl_key.passwd.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "vIPMvs25zTEA4CvYd/yXI5Q3s9TvruLN5sjPEqmD9Qo="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/allsans.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/allsans.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/ssl_key.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/ssl_key.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/badcert.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/badcert.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "fdZwTjfxyQHIYf+BmyPXyLEOqdG4U2NLBuFNLckqc/s="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/badcert.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/badcert.pem"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 19,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "fdZwTjfxyQHIYf+BmyPXyLEOqdG4U2NLBuFNLckqc/s="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/idnsans.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/idnsans.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert.passwd.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert.passwd.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "vIPMvs25zTEA4CvYd/yXI5Q3s9TvruLN5sjPEqmD9Qo="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert2.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert2.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert3.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert3.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert4.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycert4.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycertecc.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/keycertecc.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0020",
+          "ruleIndex": 0,
+          "rule": {
+            "id": "CSCAN-GENERAL0020"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/pycakey.pem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/.gdn/i/nuget/Microsoft.Guardian.BanditRedist_windows_amd64.1.6.3.1/tools/lib/test/pycakey.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "K4LFfz40Tf2WjHYSwHcxzmrGBXdPbp+75ngl6MIfimE="
+          },
+          "suppressions": [],
+          "rank": 94.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 112.5,
+            "Severity": 94.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "100"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0130",
+          "ruleIndex": 1,
+          "rule": {
+            "id": "CSCAN-GENERAL0130"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__development.json"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__development.json"
+                },
+                "region": {
+                  "startLine": 1133,
+                  "startColumn": 47,
+                  "endLine": 1133,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "phjOTsuHMWj6ImDFOqtfjt32kwwUCWrd3GgkxMiYQHk="
+          },
+          "suppressions": [],
+          "rank": 66.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 64.29,
+            "Severity": 66.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "70"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0130",
+          "ruleIndex": 1,
+          "rule": {
+            "id": "CSCAN-GENERAL0130"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__integration.json"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__integration.json"
+                },
+                "region": {
+                  "startLine": 1755,
+                  "startColumn": 47,
+                  "endLine": 1755,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "phjOTsuHMWj6ImDFOqtfjt32kwwUCWrd3GgkxMiYQHk="
+          },
+          "suppressions": [],
+          "rank": 66.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 64.29,
+            "Severity": 66.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "70"
+          }
+        },
+        {
+          "ruleId": "CSCAN-GENERAL0130",
+          "ruleIndex": 1,
+          "rule": {
+            "id": "CSCAN-GENERAL0130"
+          },
+          "level": "error",
+          "message": {
+            "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+          },
+          "analysisTarget": {
+            "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__staging.json"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/AS-105/code/ghost/platform_data/hydra/hydra_export__doom__staging.json"
+                },
+                "region": {
+                  "startLine": 1208,
+                  "startColumn": 47,
+                  "endLine": 1208,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "HashCode": "phjOTsuHMWj6ImDFOqtfjt32kwwUCWrd3GgkxMiYQHk="
+          },
+          "suppressions": [],
+          "rank": 66.0,
+          "properties": {
+            "DefectCode": "SecretInFile",
+            "MatchingScore": 94.41,
+            "EnrichmentScore": 64.29,
+            "Severity": 66.0,
+            "Validation": "NoValidationRequested",
+            "Risk": "70"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CredentialScanner",
+          "organization": "Microsoft Corporation",
+          "product": "Microsoft Security Credential Scanner Client",
+          "fullName": "CredentialScanner 2.5.1.13",
+          "version": "2.5.1.13",
+          "semanticVersion": "2.5.1",
+          "rules": [
+            {
+              "id": "CSCAN-GENERAL0020",
+              "name": "X.509 Certificate Private Key",
+              "shortDescription": {
+                "text": "X.509 Certificate Private Key."
+              },
+              "fullDescription": {
+                "text": "used as a private component in SSL certificates."
+              },
+              "messageStrings": {
+                "Default": {
+                  "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+                }
+              },
+              "helpUri": "https://aka.ms/CredScanDocs"
+            },
+            {
+              "id": "CSCAN-GENERAL0130",
+              "name": "Client Secret / Api Key",
+              "shortDescription": {
+                "text": "Client Secret / Api Key."
+              },
+              "fullDescription": {
+                "text": "known only to the OAuth application and the authorization server to exchange for an access token at runtime."
+              },
+              "messageStrings": {
+                "Default": {
+                  "text": "A potential secret was detected. Validate file contains secrets, remove, rotate credential, and use approved store. For additional information on secret remediation see the remediation section at https://aka.ms/CredScanDocs "
+                }
+              },
+              "helpUri": "https://aka.ms/CredScanDocs"
+            }
+          ],
+          "properties": {
+            "Comments": "CredentialScanner is an Azure security tool to scan for credentials & other sensitive data in source code and/or system files."
+          }
+        },
+        "properties": {
+          "IsPreview": true
+        }
+      },
+      "invocations": [
+        {
+          "startTimeUtc": "2025-03-25T21:57:02.178Z",
+          "endTimeUtc": "2025-03-25T21:57:10.456Z",
+          "executionSuccessful": true
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
